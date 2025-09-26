@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Programming Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        Welcome Screen 
+        <div id="welcome-screen" class="screen active">
+            <div class="welcome-content">
+                <h1>C Programming Challenge</h1>
+                <p>Test your C programming knowledge with 20 questions in 30 minutes!</p>
+                <div class="difficulty-info">
+                    <div class="difficulty-item">
+                        <span class="difficulty-badge low">Low</span>
+                        <span>Basic concepts</span>
+                    </div>
+                    <div class="difficulty-item">
+                        <span class="difficulty-badge medium">Medium</span>
+                        <span>Intermediate topics</span>
+                    </div>
+                    <div class="difficulty-item">
+                        <span class="difficulty-badge hard">Hard</span>
+                        <span>Advanced concepts</span>
+                    </div>
+                </div>
+                <button id="start-btn" class="btn btn-primary">Start Challenge</button>
+            </div>
+        </div>
+
+         Quiz Screen 
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div id="progress" class="progress-fill"></div>
+                    </div>
+                    <span id="question-counter">1 / 20</span>
+                </div>
+                <div class="timer-container">
+                    <div class="timer">
+                        <span id="timer">30:00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <div class="difficulty-badge-container">
+                    <span id="current-difficulty" class="difficulty-badge">Low</span>
+                </div>
+                <h2 id="question-text">Question will appear here</h2>
+                <div id="options-container" class="options-container">
+                     Options will be populated by JavaScript 
+                </div>
+                <div class="quiz-controls">
+                    <button id="prev-btn" class="btn btn-secondary" disabled>Previous</button>
+                    <button id="next-btn" class="btn btn-primary" disabled>Next</button>
+                </div>
+            </div>
+        </div>
+
+         Results Screen 
+        <div id="results-screen" class="screen">
+            <div class="results-content">
+                <h1>Challenge Complete!</h1>
+                <div class="score-container">
+                    <div class="score-circle">
+                        <span id="final-score">0</span>
+                        <span class="score-total">/ 20</span>
+                    </div>
+                </div>
+                <div class="score-breakdown">
+                    <div class="breakdown-item">
+                        <span class="difficulty-badge low">Low</span>
+                        <span id="low-score">0/7</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="difficulty-badge medium">Medium</span>
+                        <span id="medium-score">0/7</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="difficulty-badge hard">Hard</span>
+                        <span id="hard-score">0/6</span>
+                    </div>
+                </div>
+                <div class="time-taken">
+                    <p>Time taken: <span id="time-taken">0:00</span></p>
+                </div>
+                <button id="restart-btn" class="btn btn-primary">Try Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

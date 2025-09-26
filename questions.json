@@ -1,0 +1,244 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "difficulty": "low",
+            "question": "What is the correct way to declare an integer variable in C?",
+            "options": [
+                "int x;",
+                "integer x;",
+                "var x;",
+                "x: int;"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 2,
+            "difficulty": "low",
+            "question": "Which header file is required for printf() function?",
+            "options": [
+                "#include <stdlib.h>",
+                "#include <stdio.h>",
+                "#include <string.h>",
+                "#include <math.h>"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 3,
+            "difficulty": "low",
+            "question": "What is the output of: printf(\"%d\", 5 + 3);",
+            "options": [
+                "5 + 3",
+                "8",
+                "53",
+                "Error"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 4,
+            "difficulty": "low",
+            "question": "Which symbol is used for single line comments in C?",
+            "options": [
+                "//",
+                "/*",
+                "#",
+                "--"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 5,
+            "difficulty": "low",
+            "question": "What is the size of int data type in most systems?",
+            "options": [
+                "2 bytes",
+                "4 bytes",
+                "8 bytes",
+                "1 byte"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 6,
+            "difficulty": "low",
+            "question": "Which function is used to read a string from user input?",
+            "options": [
+                "scanf()",
+                "gets()",
+                "fgets()",
+                "All of the above"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 7,
+            "difficulty": "low",
+            "question": "What does '\\n' represent in C?",
+            "options": [
+                "New line",
+                "Null character",
+                "Tab space",
+                "Backslash"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 8,
+            "difficulty": "medium",
+            "question": "What is the output of: int x = 5; printf(\"%d\", ++x);",
+            "options": [
+                "5",
+                "6",
+                "Error",
+                "Undefined"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 9,
+            "difficulty": "medium",
+            "question": "Which of the following is NOT a valid identifier in C?",
+            "options": [
+                "_variable",
+                "variable1",
+                "1variable",
+                "Variable"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 10,
+            "difficulty": "medium",
+            "question": "What is the difference between '=' and '==' operators?",
+            "options": [
+                "No difference",
+                "'=' is assignment, '==' is comparison",
+                "'=' is comparison, '==' is assignment",
+                "Both are assignment operators"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 11,
+            "difficulty": "medium",
+            "question": "What is the output of: printf(\"%d\", sizeof(char));",
+            "options": [
+                "1",
+                "2",
+                "4",
+                "8"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 12,
+            "difficulty": "medium",
+            "question": "Which loop is guaranteed to execute at least once?",
+            "options": [
+                "for loop",
+                "while loop",
+                "do-while loop",
+                "None of the above"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 13,
+            "difficulty": "medium",
+            "question": "What is the correct way to declare a pointer to an integer?",
+            "options": [
+                "int ptr;",
+                "int *ptr;",
+                "int &ptr;",
+                "pointer int ptr;"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 14,
+            "difficulty": "medium",
+            "question": "What does the 'break' statement do in a loop?",
+            "options": [
+                "Continues to next iteration",
+                "Exits the loop",
+                "Pauses the loop",
+                "Restarts the loop"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 15,
+            "difficulty": "hard",
+            "question": "What is the output of: int arr[] = {1,2,3}; printf(\"%d\", *(arr+1));",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "Address of arr[1]"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 16,
+            "difficulty": "hard",
+            "question": "Which function is used to allocate memory dynamically?",
+            "options": [
+                "alloc()",
+                "malloc()",
+                "calloc()",
+                "Both malloc() and calloc()"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 17,
+            "difficulty": "hard",
+            "question": "What is the output of: int x = 10; int *p = &x; printf(\"%d\", *p);",
+            "options": [
+                "Address of x",
+                "10",
+                "Garbage value",
+                "Error"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 18,
+            "difficulty": "hard",
+            "question": "What is a dangling pointer?",
+            "options": [
+                "A pointer that points to NULL",
+                "A pointer that points to deallocated memory",
+                "A pointer that points to itself",
+                "A pointer with no value"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 19,
+            "difficulty": "hard",
+            "question": "What is the difference between call by value and call by reference?",
+            "options": [
+                "No difference",
+                "Call by value passes copy, call by reference passes address",
+                "Call by value passes address, call by reference passes copy",
+                "Both pass the same thing"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 20,
+            "difficulty": "hard",
+            "question": "What is the output of: printf(\"%d\", 5 > 3 ? 10 : 20);",
+            "options": [
+                "5",
+                "3",
+                "10",
+                "20"
+            ],
+            "correct": 2
+        }
+    ]
+}
