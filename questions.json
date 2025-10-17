@@ -3,242 +3,482 @@
         {
             "id": 1,
             "difficulty": "low",
-            "question": "What is the correct way to declare an integer variable in C?",
+            "question": "Which keyword is used to define a class in C++?",
             "options": [
-                "int x;",
-                "integer x;",
-                "var x;",
-                "x: int;"
+                "class",
+                "struct",
+                "object",
+                "type"
             ],
             "correct": 0
         },
         {
             "id": 2,
             "difficulty": "low",
-            "question": "Which header file is required for printf() function?",
+            "question": "What is an object in C++ OOP?",
             "options": [
-                "#include <stdlib.h>",
-                "#include <stdio.h>",
-                "#include <string.h>",
-                "#include <math.h>"
+                "A function that returns a value",
+                "An instance of a class",
+                "A header file",
+                "A namespace"
             ],
             "correct": 1
         },
         {
             "id": 3,
             "difficulty": "low",
-            "question": "What is the output of: printf(\"%d\", 5 + 3);",
+            "question": "What is the default access specifier for class members in C++?",
             "options": [
-                "5 + 3",
-                "8",
-                "53",
-                "Error"
+                "public",
+                "private",
+                "protected",
+                "package"
             ],
             "correct": 1
         },
         {
             "id": 4,
             "difficulty": "low",
-            "question": "Which symbol is used for single line comments in C?",
+            "question": "Which member function is called automatically when an object is created?",
             "options": [
-                "//",
-                "/*",
-                "#",
-                "--"
-            ],
-            "correct": 0
-        },
-        {
-            "id": 5,
-            "difficulty": "low",
-            "question": "What is the size of int data type in most systems?",
-            "options": [
-                "2 bytes",
-                "4 bytes",
-                "8 bytes",
-                "1 byte"
+                "Destructor",
+                "Constructor",
+                "Operator overload",
+                "Setter"
             ],
             "correct": 1
         },
         {
-            "id": 6,
+            "id": 5,
             "difficulty": "low",
-            "question": "Which function is used to read a string from user input?",
+            "question": "Which symbol is used to access class members through an object (non-pointer)?",
             "options": [
-                "scanf()",
-                "gets()",
-                "fgets()",
-                "All of the above"
-            ],
-            "correct": 3
-        },
-        {
-            "id": 7,
-            "difficulty": "low",
-            "question": "What does '\\n' represent in C?",
-            "options": [
-                "New line",
-                "Null character",
-                "Tab space",
-                "Backslash"
+                ".",
+                "->",
+                "::",
+                ":"
             ],
             "correct": 0
         },
         {
-            "id": 8,
-            "difficulty": "medium",
-            "question": "What is the output of: int x = 5; printf(\"%d\", ++x);",
+            "id": 6,
+            "difficulty": "low",
+            "question": "Which of the following enables function overloading based on argument lists?",
             "options": [
-                "5",
-                "6",
-                "Error",
-                "Undefined"
+                "Polymorphism",
+                "Encapsulation",
+                "Inheritance",
+                "Abstraction"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 7,
+            "difficulty": "low",
+            "question": "What does 'encapsulation' primarily achieve?",
+            "options": [
+                "Code duplication",
+                "Hiding data and exposing behavior",
+                "Global variable access",
+                "Faster compilation"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 8,
+            "difficulty": "low",
+            "question": "Which access specifier allows member access only within the class and its friends?",
+            "options": [
+                "public",
+                "private",
+                "protected",
+                "internal"
             ],
             "correct": 1
         },
         {
             "id": 9,
-            "difficulty": "medium",
-            "question": "Which of the following is NOT a valid identifier in C?",
+            "difficulty": "low",
+            "question": "How do you define a class named Person?",
             "options": [
-                "_variable",
-                "variable1",
-                "1variable",
-                "Variable"
-            ],
-            "correct": 2
-        },
-        {
-            "id": 10,
-            "difficulty": "medium",
-            "question": "What is the difference between '=' and '==' operators?",
-            "options": [
-                "No difference",
-                "'=' is assignment, '==' is comparison",
-                "'=' is comparison, '==' is assignment",
-                "Both are assignment operators"
-            ],
-            "correct": 1
-        },
-        {
-            "id": 11,
-            "difficulty": "medium",
-            "question": "What is the output of: printf(\"%d\", sizeof(char));",
-            "options": [
-                "1",
-                "2",
-                "4",
-                "8"
+                "class Person { };",
+                "Person class { };",
+                "def class Person { }",
+                "type Person { }"
             ],
             "correct": 0
         },
         {
-            "id": 12,
-            "difficulty": "medium",
-            "question": "Which loop is guaranteed to execute at least once?",
+            "id": 10,
+            "difficulty": "low",
+            "question": "Which of the following can be static in a class?",
             "options": [
-                "for loop",
-                "while loop",
-                "do-while loop",
-                "None of the above"
+                "Only data members",
+                "Only member functions",
+                "Both data members and member functions",
+                "Neither"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 11,
+            "difficulty": "low",
+            "question": "Which constructor takes no parameters?",
+            "options": [
+                "Copy constructor",
+                "Default constructor",
+                "Move constructor",
+                "Delegating constructor"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 12,
+            "difficulty": "low",
+            "question": "Which keyword prevents a method from being overridden further?",
+            "options": [
+                "virtual",
+                "override",
+                "final",
+                "sealed"
             ],
             "correct": 2
         },
         {
             "id": 13,
             "difficulty": "medium",
-            "question": "What is the correct way to declare a pointer to an integer?",
+            "question": "What is a copy constructor’s typical signature for class T?",
             "options": [
-                "int ptr;",
-                "int *ptr;",
-                "int &ptr;",
-                "pointer int ptr;"
+                "T(T obj)",
+                "T(const T& obj)",
+                "T(T&& obj)",
+                "T(const T* obj)"
             ],
             "correct": 1
         },
         {
             "id": 14,
             "difficulty": "medium",
-            "question": "What does the 'break' statement do in a loop?",
+            "question": "Which special member function is called when an object goes out of scope?",
             "options": [
-                "Continues to next iteration",
-                "Exits the loop",
-                "Pauses the loop",
-                "Restarts the loop"
+                "Destructor",
+                "Constructor",
+                "Copy constructor",
+                "Allocator"
             ],
-            "correct": 1
+            "correct": 0
         },
         {
             "id": 15,
-            "difficulty": "hard",
-            "question": "What is the output of: int arr[] = {1,2,3}; printf(\"%d\", *(arr+1));",
+            "difficulty": "medium",
+            "question": "Which keyword enables runtime polymorphism?",
             "options": [
-                "1",
-                "2",
-                "3",
-                "Address of arr[1]"
+                "static",
+                "virtual",
+                "mutable",
+                "inline"
             ],
             "correct": 1
         },
         {
             "id": 16,
-            "difficulty": "hard",
-            "question": "Which function is used to allocate memory dynamically?",
+            "difficulty": "medium",
+            "question": "What is a pure virtual function?",
             "options": [
-                "alloc()",
-                "malloc()",
-                "calloc()",
-                "Both malloc() and calloc()"
+                "A function with no body and '=0' in its declaration",
+                "A function defined outside the class",
+                "A static member function",
+                "A function that can't be overloaded"
             ],
-            "correct": 3
+            "correct": 0
         },
         {
             "id": 17,
-            "difficulty": "hard",
-            "question": "What is the output of: int x = 10; int *p = &x; printf(\"%d\", *p);",
+            "difficulty": "medium",
+            "question": "Which of the following best describes 'inheritance'?",
             "options": [
-                "Address of x",
-                "10",
-                "Garbage value",
-                "Error"
+                "Combining data and methods",
+                "Creating new classes from existing ones",
+                "Restricting access to data",
+                "Binding functions at compile time"
             ],
             "correct": 1
         },
         {
             "id": 18,
-            "difficulty": "hard",
-            "question": "What is a dangling pointer?",
+            "difficulty": "medium",
+            "question": "How do you call a base class constructor explicitly in a derived class?",
             "options": [
-                "A pointer that points to NULL",
-                "A pointer that points to deallocated memory",
-                "A pointer that points to itself",
-                "A pointer with no value"
+                "Inside body using base::Base()",
+                "In the member initializer list",
+                "It is automatic and cannot be specified",
+                "Using super()"
             ],
             "correct": 1
         },
         {
             "id": 19,
-            "difficulty": "hard",
-            "question": "What is the difference between call by value and call by reference?",
+            "difficulty": "medium",
+            "question": "What problem does virtual inheritance solve?",
             "options": [
-                "No difference",
-                "Call by value passes copy, call by reference passes address",
-                "Call by value passes address, call by reference passes copy",
-                "Both pass the same thing"
+                "Name mangling",
+                "The diamond problem (duplicate base subobjects)",
+                "Operator precedence",
+                "Ambiguous overload resolution"
             ],
             "correct": 1
         },
         {
             "id": 20,
-            "difficulty": "hard",
-            "question": "What is the output of: printf(\"%d\", 5 > 3 ? 10 : 20);",
+            "difficulty": "medium",
+            "question": "Which operator is typically overloaded to provide deep copy semantics?",
             "options": [
-                "5",
-                "3",
-                "10",
-                "20"
+                "operator+",
+                "operator==",
+                "operator=",
+                "operator[]"
             ],
             "correct": 2
+        },
+        {
+            "id": 21,
+            "difficulty": "medium",
+            "question": "What is 'this' pointer in a non-static member function?",
+            "options": [
+                "A copy of the object",
+                "A pointer to the current object",
+                "A pointer to the class",
+                "A reference to the base class"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 22,
+            "difficulty": "medium",
+            "question": "Which of the following is true about friend functions?",
+            "options": [
+                "They are members of the class",
+                "They can access private and protected members",
+                "They are inherited",
+                "They must be virtual"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 23,
+            "difficulty": "medium",
+            "question": "What does 'override' keyword ensure?",
+            "options": [
+                "The function is static",
+                "The function hides a base overload",
+                "The function overrides a virtual function in base",
+                "The function cannot throw"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 24,
+            "difficulty": "medium",
+            "question": "Given 'struct' in C++, what is the default access for its members?",
+            "options": [
+                "public",
+                "private",
+                "protected",
+                "package"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 25,
+            "difficulty": "medium",
+            "question": "Which of the following prevents copying of a class?",
+            "options": [
+                "Delete copy constructor and copy assignment",
+                "Make destructor private",
+                "Use protected inheritance",
+                "Mark class as final"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 26,
+            "difficulty": "medium",
+            "question": "What is the correct way to define an abstract class?",
+            "options": [
+                "A class with at least one pure virtual function",
+                "A class with only private members",
+                "A class with only static members",
+                "A class without constructors"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 27,
+            "difficulty": "hard",
+            "question": "What does the Rule of Three state?",
+            "options": [
+                "If you define a constructor, define a destructor too",
+                "If you define a copy constructor or copy assignment, also define a destructor",
+                "If you define any one of destructor, copy constructor, or copy assignment, you likely need to define all three",
+                "Use three constructors in every class"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 28,
+            "difficulty": "hard",
+            "question": "Which combination represents the Rule of Five in C++11 and later?",
+            "options": [
+                "Default ctor, copy ctor, copy assign, destructor, static ctor",
+                "Copy ctor, copy assign, move ctor, move assign, destructor",
+                "Move ctor, move assign, destructor, allocator, deallocator",
+                "Default ctor, move ctor, destructor, friend, virtual dtor"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 29,
+            "difficulty": "hard",
+            "question": "When should a destructor be declared virtual?",
+            "options": [
+                "Always",
+                "Never",
+                "When the class is intended to be used polymorphically",
+                "Only if the class has pointers"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 30,
+            "difficulty": "hard",
+            "question": "What is object slicing?",
+            "options": [
+                "Allocating objects on the stack",
+                "Losing derived part when a derived object is copied to a base object by value",
+                "Overloading too many operators",
+                "Reducing object size with pragma"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 31,
+            "difficulty": "hard",
+            "question": "Which statement about multiple inheritance is correct?",
+            "options": [
+                "It is not supported in C++",
+                "It requires virtual inheritance to compile",
+                "It can cause diamond issues which virtual inheritance can resolve",
+                "It automatically merges identical base classes"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 32,
+            "difficulty": "hard",
+            "question": "How do you declare a pure virtual destructor correctly?",
+            "options": [
+                "virtual ~Base() = 0;",
+                "~Base() = 0;",
+                "pure virtual ~Base();",
+                "virtual ~Base() = default;"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 33,
+            "difficulty": "hard",
+            "question": "Which is true about defaulted special members?",
+            "options": [
+                "They can be explicitly defaulted using '= default;'",
+                "They must be user-defined to exist",
+                "They cannot be generated by the compiler",
+                "They disable move semantics"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 34,
+            "difficulty": "hard",
+            "question": "What does '= delete' on a constructor achieve?",
+            "options": [
+                "Marks it virtual",
+                "Removes it from overload resolution (disables that form of construction)",
+                "Makes it inline",
+                "Forces default initialization"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 35,
+            "difficulty": "hard",
+            "question": "Which cast is safest for downcasting in a polymorphic hierarchy?",
+            "options": [
+                "static_cast",
+                "reinterpret_cast",
+                "const_cast",
+                "dynamic_cast"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 36,
+            "difficulty": "hard",
+            "question": "What is the effect of marking a member function 'const'?",
+            "options": [
+                "Function can modify any member",
+                "Function cannot modify non-mutable members and 'this' is treated as pointer to const",
+                "Function is static",
+                "Function becomes inline"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 37,
+            "difficulty": "hard",
+            "question": "How do you prevent a class from being used as a base class?",
+            "options": [
+                "Use private constructors",
+                "Use final after the class name (C++11): 'class A final { }'",
+                "Delete destructor",
+                "Mark all members private"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 38,
+            "difficulty": "hard",
+            "question": "What does 'mutable' allow inside a const member function?",
+            "options": [
+                "Modification of mutable data members",
+                "Changing the vtable",
+                "Rebinding 'this'",
+                "Overriding access specifiers"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 39,
+            "difficulty": "hard",
+            "question": "Choose the correct signature of a move constructor for class T:",
+            "options": [
+                "T(const T&& other)",
+                "T(T&& other)",
+                "T(T& other)",
+                "T(const T& other)"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 40,
+            "difficulty": "hard",
+            "question": "Why should operator= return a reference to *this?",
+            "options": [
+                "To enable chaining assignments and avoid unnecessary copies",
+                "To prevent recursion",
+                "To hide the base operator",
+                "It is required by the standard"
+            ],
+            "correct": 0
         }
     ]
 }
